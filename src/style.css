@@ -45,9 +45,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #89ffdc;
+    background-color: #89ffdc;
+    color: white;
+    padding: 15%;
+    border-radius: 15%;
     font: 1vw;
-    animation: blinking 0.3s infinite alternate;
+    animation: blinking 0.5s infinite alternate;
 }
 
 @keyframes blinking {

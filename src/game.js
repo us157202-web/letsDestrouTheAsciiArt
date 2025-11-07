@@ -8,7 +8,7 @@ const timeLeft = document.querySelector('#timeLeft');
 const asciiArtData = [
     `
   (| /)
-  ( . .)
+  ( . .)✨✨
  c(")(")
  `,
     `                _
@@ -147,11 +147,21 @@ _,,)\\.~,,._
         |   .-""""    |      '
       .'  _'         .'    _'
      |_.-'            '-.'
-     `
+     `,
+    `
+ ^~~~^
+3'ㅗ' 3
+3 ~  3
+3    3
+3    “~~~~~O
+3          3
+3 3 3~~~3 3
+3_3_3 3_3_3
+`
 ]
 // asciiArtDada 아스키아트들 모음
 
-const timeLimits = [20, 70, 70, 60, 50, 40, 60, 25, 50, 60];
+const timeLimits = [30, 70, 70, 60, 50, 40, 60, 25, 50, 60, 40];
 
 let asciiString = []; //배열. 수정가능
 let timeLeftValue = 30; //시간제한 초기값 지정
