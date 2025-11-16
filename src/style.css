@@ -27,11 +27,12 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
     border-radius: 35px;
     box-sizing: border-box;
     min-width: 70%;
     min-height: 50%;
+    max-width: 95vw;
     max-height: 95vh;
 
     font-family: 'PfStardust';
@@ -40,16 +41,23 @@ body {
 }
 
 #title {
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 
 a {
     text-decoration: none;
     background-color: #89ffdc;
     color: white;
-    padding: 15%;
-    border-radius: 15%;
-    font: 1vw;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+#startButton {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    margin-top: auto;
     animation: blinking 0.5s infinite alternate;
 }
 
@@ -84,13 +92,13 @@ a {
     bottom: 5%;
     width: 80%;
     height: 40px;
-    font-size: 1.0vw;
+    font-size: 1.8vw;
     border: none;
     border-radius: 10px;
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-    opacity: 70%
+    opacity: 50%
 }
 
 #timeLeft {
@@ -101,12 +109,27 @@ a {
 }
 
 #restart {
+    font-size: 2vw;
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: 10px;
+    right: 20px;
 }
 
 @media screen and (max-width: 768px) {
+    #title {
+        font-size: 1.2vw;
+    }
+
+    #startButton {
+        font-size: 6vw;
+    }
+
+    #restart {
+        font-size: 4vw;
+        top: 4vw;
+        right: 5vw;
+    }
+
     #asciiArt {
         font-size: 3vw;
     }
