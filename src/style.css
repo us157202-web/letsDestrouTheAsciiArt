@@ -55,7 +55,7 @@ a {
 }
 
 #startButton {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 3vw;
     margin-top: auto;
     animation: blinking 0.5s infinite alternate;
